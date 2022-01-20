@@ -1,0 +1,154 @@
+.footer-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-image: url("Union 2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 0px;
+  padding: 40px;
+  color: white;
+  padding-top: 100px;
+}
+
+.footer-cont1 {
+  width: 100%;
+  margin-right: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-cont1 > div > h4 {
+  font-size: 30px;
+}
+
+.footer-cont2 {
+  width: 400px;
+  background-color: #0F5C30;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-cont2 > div {
+  border-bottom: 2px solid  white;
+}
+
+.email-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 10px;
+  color: black;
+}
+
+.email-cont > input {
+  width: 70%;
+  height: 44px;
+  background-color: #0F5C30;
+  border-radius: 20px;
+  border-style: none;
+  margin-top: 10px;
+  padding: 0px 300px 0px 10px;
+}
+
+.email-cont > button {
+  position: relative;
+  width: 20%;
+  border-radius: 15px;
+  border-style: none;
+  font-family: 'Lato';
+  font-weight: bold;
+  font-size: 16px;
+  height: 33px;
+  top: 15px;
+  left: -165px;
+}
+
+::-webkit-input-placeholder {
+  color: #ffffff;
+  font-family: 'Lato';
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+:-ms-input-placeholder {
+  color: #ffffff;
+  font-family: 'Lato';
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+::-ms-input-placeholder {
+  color: #ffffff;
+  font-family: 'Lato';
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+::placeholder {
+  color: #ffffff;
+  font-family: 'Lato';
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.aboutus-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.copy-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact {
+  padding-right: 10px;
+}
+/*# sourceMappingURL=footer.css.map */

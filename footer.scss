@@ -1,0 +1,89 @@
+.footer-cont {
+    display: flex;
+    flex-direction: row;
+    background-image: url('Union 2.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    width: 100%;
+    margin-top: 0px;
+    padding:40px;
+    color: white;
+    padding-top: 100px;
+}
+.footer-cont1  {
+    width: 100%;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &>div>h4 {
+        font-size: 30px;
+    }
+}
+.footer-cont2 {
+    width: 400px;
+    background-color: #0F5C30;
+    padding: 30px;
+    margin-bottom: 20px;
+
+    &>div {
+        border-bottom: 2px solid  white;
+    }
+}
+
+.email-cont {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    color: black;
+
+    &>input {
+        width:70%;
+        height:44px;
+        background-color:#0F5C30;
+        border-radius:20px;
+        border-style:none;
+        margin-top:10px;
+        padding:0px 300px 0px 10px;
+    }
+    &>button {
+        position:relative;
+        width:20%;
+        border-radius:15px;
+        border-style:none;
+        font-family:'Lato';
+        font-weight:bold;
+        font-size:16px;
+        height:33px;
+        top:15px;
+        left:-165px;
+        
+    }
+}
+
+::placeholder{
+    
+    color:#ffffff;
+    font-family:'Lato';
+    font-size: 14px;
+    padding-left: 10px;
+}
+.aboutus-cont {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+.copy-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contact {
+    padding-right: 10px;
+}
